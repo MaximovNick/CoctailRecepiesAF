@@ -9,21 +9,30 @@
 /* Begin PBXBuildFile section */
 		ADE0FC212875FD8E00B4FBE4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0FC202875FD8E00B4FBE4 /* AppDelegate.swift */; };
 		ADE0FC232875FD8E00B4FBE4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0FC222875FD8E00B4FBE4 /* SceneDelegate.swift */; };
-		ADE0FC252875FD8E00B4FBE4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0FC242875FD8E00B4FBE4 /* ViewController.swift */; };
 		ADE0FC282875FD8E00B4FBE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE0FC262875FD8E00B4FBE4 /* Main.storyboard */; };
 		ADE0FC2A2875FD8E00B4FBE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADE0FC292875FD8E00B4FBE4 /* Assets.xcassets */; };
 		ADE0FC2D2875FD8E00B4FBE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADE0FC2B2875FD8E00B4FBE4 /* LaunchScreen.storyboard */; };
+		ADE0FC3E2876003000B4FBE4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = ADE0FC3D2876003000B4FBE4 /* Alamofire */; };
+		ADE0FC402876010000B4FBE4 /* MargaritaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0FC3F2876010000B4FBE4 /* MargaritaViewController.swift */; };
+		ADE0FC422876011E00B4FBE4 /* MargaritasDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0FC412876011E00B4FBE4 /* MargaritasDetailViewController.swift */; };
+		ADE0FC442876014800B4FBE4 /* MargaritaViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0FC432876014800B4FBE4 /* MargaritaViewCell.swift */; };
+		ADE0FC462876016600B4FBE4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0FC452876016600B4FBE4 /* NetworkManager.swift */; };
+		ADE0FC482876018100B4FBE4 /* Margarita.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE0FC472876018100B4FBE4 /* Margarita.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ADE0FC1D2875FD8E00B4FBE4 /* CoctailRecepiesAF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoctailRecepiesAF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE0FC202875FD8E00B4FBE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADE0FC222875FD8E00B4FBE4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ADE0FC242875FD8E00B4FBE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ADE0FC272875FD8E00B4FBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADE0FC292875FD8E00B4FBE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADE0FC2C2875FD8E00B4FBE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADE0FC2E2875FD8E00B4FBE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADE0FC3F2876010000B4FBE4 /* MargaritaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritaViewController.swift; sourceTree = "<group>"; };
+		ADE0FC412876011E00B4FBE4 /* MargaritasDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritasDetailViewController.swift; sourceTree = "<group>"; };
+		ADE0FC432876014800B4FBE4 /* MargaritaViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MargaritaViewCell.swift; sourceTree = "<group>"; };
+		ADE0FC452876016600B4FBE4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		ADE0FC472876018100B4FBE4 /* Margarita.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Margarita.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADE0FC3E2876003000B4FBE4 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +66,75 @@
 		ADE0FC1F2875FD8E00B4FBE4 /* CoctailRecepiesAF */ = {
 			isa = PBXGroup;
 			children = (
-				ADE0FC202875FD8E00B4FBE4 /* AppDelegate.swift */,
-				ADE0FC222875FD8E00B4FBE4 /* SceneDelegate.swift */,
-				ADE0FC242875FD8E00B4FBE4 /* ViewController.swift */,
-				ADE0FC262875FD8E00B4FBE4 /* Main.storyboard */,
-				ADE0FC292875FD8E00B4FBE4 /* Assets.xcassets */,
-				ADE0FC2B2875FD8E00B4FBE4 /* LaunchScreen.storyboard */,
-				ADE0FC2E2875FD8E00B4FBE4 /* Info.plist */,
+				ADE0FC3B2875FE8A00B4FBE4 /* Services */,
+				ADE0FC382875FE4D00B4FBE4 /* Models */,
+				ADE0FC352875FDF900B4FBE4 /* ViewControllers */,
+				ADE0FC3A2875FE7E00B4FBE4 /* CustomUI */,
+				ADE0FC362875FE0700B4FBE4 /* Storyboards */,
+				ADE0FC372875FE1100B4FBE4 /* Resources */,
+				ADE0FC342875FDF200B4FBE4 /* App */,
 			);
 			path = CoctailRecepiesAF;
+			sourceTree = "<group>";
+		};
+		ADE0FC342875FDF200B4FBE4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0FC202875FD8E00B4FBE4 /* AppDelegate.swift */,
+				ADE0FC222875FD8E00B4FBE4 /* SceneDelegate.swift */,
+				ADE0FC2E2875FD8E00B4FBE4 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ADE0FC352875FDF900B4FBE4 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0FC3F2876010000B4FBE4 /* MargaritaViewController.swift */,
+				ADE0FC412876011E00B4FBE4 /* MargaritasDetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		ADE0FC362875FE0700B4FBE4 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0FC262875FD8E00B4FBE4 /* Main.storyboard */,
+				ADE0FC2B2875FD8E00B4FBE4 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		ADE0FC372875FE1100B4FBE4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0FC292875FD8E00B4FBE4 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		ADE0FC382875FE4D00B4FBE4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0FC472876018100B4FBE4 /* Margarita.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ADE0FC3A2875FE7E00B4FBE4 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0FC432876014800B4FBE4 /* MargaritaViewCell.swift */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		ADE0FC3B2875FE8A00B4FBE4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ADE0FC452876016600B4FBE4 /* NetworkManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +153,9 @@
 			dependencies = (
 			);
 			name = CoctailRecepiesAF;
+			packageProductDependencies = (
+				ADE0FC3D2876003000B4FBE4 /* Alamofire */,
+			);
 			productName = CoctailRecepiesAF;
 			productReference = ADE0FC1D2875FD8E00B4FBE4 /* CoctailRecepiesAF.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +184,9 @@
 				Base,
 			);
 			mainGroup = ADE0FC142875FD8E00B4FBE4;
+			packageReferences = (
+				ADE0FC3C2876003000B4FBE4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = ADE0FC1E2875FD8E00B4FBE4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +214,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADE0FC252875FD8E00B4FBE4 /* ViewController.swift in Sources */,
+				ADE0FC462876016600B4FBE4 /* NetworkManager.swift in Sources */,
+				ADE0FC482876018100B4FBE4 /* Margarita.swift in Sources */,
+				ADE0FC422876011E00B4FBE4 /* MargaritasDetailViewController.swift in Sources */,
 				ADE0FC212875FD8E00B4FBE4 /* AppDelegate.swift in Sources */,
+				ADE0FC442876014800B4FBE4 /* MargaritaViewCell.swift in Sources */,
+				ADE0FC402876010000B4FBE4 /* MargaritaViewController.swift in Sources */,
 				ADE0FC232875FD8E00B4FBE4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,10 +368,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoctailRecepiesAF/Info.plist;
+				INFOPLIST_FILE = CoctailRecepiesAF/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -303,7 +384,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,10 +396,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CoctailRecepiesAF/Info.plist;
+				INFOPLIST_FILE = CoctailRecepiesAF/App/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -330,7 +412,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -356,6 +438,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ADE0FC3C2876003000B4FBE4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ADE0FC3D2876003000B4FBE4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ADE0FC3C2876003000B4FBE4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ADE0FC152875FD8E00B4FBE4 /* Project object */;
 }
