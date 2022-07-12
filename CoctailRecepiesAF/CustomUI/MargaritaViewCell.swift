@@ -15,4 +15,6 @@ class MargaritaViewCell: UITableViewCell {
     
     @IBOutlet var margaritasComponentLabel: UILabel!
     
+    @IBOutlet var customCellView: UIView!
+    
 }

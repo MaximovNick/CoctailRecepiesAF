@@ -30,7 +30,8 @@ class MargaritasDetailViewController: UIViewController {
     
     // MARK: - Private Methods
     private func updateUI() {
-        margaritasImageView.layer.cornerRadius = 30
+        margaritasImageView.layer.borderWidth = 2
+        margaritasImageView.layer.cornerRadius = 20
         margaritasImageView.image = margaritasImage
         margaritasNameLabel.text = margarita.strDrink
         margaritasInstructionLabel.text = margarita.strInstructions
